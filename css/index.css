@@ -1,0 +1,808 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+header main{
+	/* width: 976px; */
+	height: 100%;
+	background: #444444;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header main div{
+	font-size: 10px;
+	color: #ffffff;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: #333333;	
+}
+nav ul{
+	/* width: 976px; */
+	height: 100%;
+	background: #333333;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+nav ul a{
+	font-size: 12px;
+	color: #ffffff;
+}
+/* 图片开始 */
+.litsbox{
+	width: 100%;
+	height: auto;
+	background: #fafafa;
+}
+.litsbox ul li{
+	/* height: 580px; */
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	margin-bottom: 10px;
+	/* background: #fff; */
+}
+.ipx h2{
+	/* font-size: 40px; */
+	/* line-height: 64px; */
+	/* margin-top: 85px; */
+	color: #111111;
+	font-weight: bold;
+}
+.ipx h3{
+	/* font-size: 22px; */
+	/* line-height: 64px; */
+	color: #111111;
+}
+.ipx div{
+	/* width: 909px; */
+	/* height: 194px; */
+	/* bottom: 110px; */
+	/* background: url('../img/p1.jpg') no-repeat center/cover; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ip8{
+	background: #b00e23;
+}
+.ip8 p{
+	font-size: 14px;
+	border: 1px solid #ffffff;
+	line-height: 33px;
+	width: 74px;
+	height: 34px;
+	/* text-align: center; */
+	color: #ffffff;
+	margin: 47px auto 0;
+	border-radius: 3px;
+}
+.ip8 h2{
+	line-height: 64px;
+	font-size: 44px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.ip8 h3{
+	font-size: 18px;
+	line-height: 40px;
+	color: #ffffff;
+}
+.ip8 div{
+	width: 334px;
+	height: 335px;
+	background: url('../img/hero_large.png') no-repeat center/cover;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+}
+
+.ritbox{
+	width: 100%;
+	height: auto;
+	background: #fafafa;	
+}
+.ritbox ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;	
+}
+.ritbox ul li{
+	width: 50%;
+	height: 592px;
+	background: #fafafa;
+	border: 12px solid #fff;
+	border-top: none;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.ritbox ul li:nth-child(2),.ritbox ul li:nth-child(4),.ritbox ul li:nth-child(6){
+	border-left: none;
+}
+.ritbox h2{
+	line-height: 42px;
+	font-size: 28px;
+	text-align: center;
+	color: #111111;
+	font-weight: bold;
+	margin-top: 51px;
+}
+.ritbox h3{
+	line-height: 41px;
+	font-size: 19px;
+	text-align: center;
+	color: #111111;
+}
+.ritbox div{
+	width: 385px;
+	height: 304px;
+	background: url('../img/airpods_large.jpg') no-repeat center/cover;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 60px;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	padding-top: 16px;
+	padding-left: 23px;
+	box-sizing: border-box;
+}
+.mz{
+	width: 976px;
+	height: 332px;
+	background: #333333;
+	margin: 40px auto 0;
+}
+.mcz{
+	width: 20%;
+	height: 318px;
+	background: #f2f2f2;
+	float: left;
+	overflow: hidden;
+}
+.mcz h2{
+	line-height: 29px;
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+}
+.mcz a{
+	line-height: 29px;
+	font-size: 14px;
+	color: #555555;
+}
+.baguo{
+	width: 974px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.mzz{
+	width: 100%;
+	height: 32px;
+	background: #f2f2f2;
+	margin-top: 34px;
+	border-bottom: 1px solid #d6d6d6;
+	line-height: 27px;
+	font-size: 12px;
+	color: #888888;
+	margin: 0 auto;
+}
+.mzz a{
+	font-size: 12px;
+	color: #0070c9;
+}
+.mzc{
+	width: 974px;
+	height: 84px;
+	background: #f2f2f2;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.mzc .hz{
+	width: 277px;
+	height: 28px;
+	float: left;
+	line-height: 28px;
+	font-size: 12px;
+	color: #a5a59f;
+	margin-top: 8px;
+}
+.mzc .hezi{
+	width: 621px;
+	height: 29px;
+	background: #f2f2f2;
+	float: left;
+	margin-top: 8px;
+}
+.mzc .hezi a{
+	font-size: 12px;
+	line-height: 28px;
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mzc .hezi a:first-child{
+	border-left: 0;
+	padding-left: 0;
+}
+.qu{
+	width: 76px;
+	height: 29px;
+	background: #f2f2f2;
+	float: right;
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-left: 50px; */
+    margin-top: 8px;
+
+}
+.qu i.icon-zhongguo{
+	color: red;
+	font-size: 12px;
+}
+.qu a{
+	line-height: 29px;
+	font-size: 12px;
+	color: #555555;
+
+}
+.que{
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	font-size: 11px;
+	color: #555555;
+}
+.que a{
+		line-height: 26px;
+		font-size: 11px;
+		color: #999ea9;
+		
+}
+.navss{
+	display: block;
+	width: 100%;
+	padding: 21px  34px;
+	box-sizing: border-box;
+}
+.navss .active{
+	height: 36px;
+	border-bottom: 1px solid #b0b0b0;
+	font-size: 12px;
+	color: #333;
+	overflow: hidden;
+}
+.hot{
+	transform: rotate(45deg);
+}
+.navss li h3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*     background: #f2f2f2; */
+	cursor: pointer;
+	position: relative;
+	z-index: 2;
+	font-size: 12px;
+	line-height: 1.33341;
+	font-weight: 400;
+}
+.navss li h3 span{
+	float: right;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: -2px;
+	margin-right: 8px;
+	transition: all 0.3s;
+}
+.navss li .mind_li{
+	padding: 6px 14px;
+	display: block;
+	color: #555;
+	box-sizing: border-box;
+	font-size: 10px;
+}
+.navss li .mind_li:first-of-type{
+	margin-top: 10px;
+}
+.navss li .mind_li:last-of-type{
+	margin-bottom: 20px;
+}
+.navss li .mind_li:hover{
+	text-decoration: underline;
+}
+/*.navSm{*/
+	/*height: 36px;*/
+	/*font-size: 10px;*/
+	/*color: #333333;*/
+	/*line-height: 36px;*/
+	/*float: left;*/
+/*}*/
+/*.navSma{*/
+	/*width: 24px;*/
+	/*height: 36px;*/
+	/*font-size: 10px;*/
+	/*color: #333333;*/
+	/*line-height: 36px;*/
+	/*float: right;*/
+/*}*/
+.sect{
+	width: 100%;
+
+}
+.secti{
+	width: 100%;
+	height: 48px;
+}
+.secti span{
+	font-size: 10px;
+	color: #888888;
+	line-height: 48px;
+}
+.secti a{
+	font-size: 10px;
+	color: #0070c9;
+	line-height: 48px;
+}
+.China{
+	height: 16px;
+	margin-bottom: 13px;
+}
+i.icon-zhongguoliantong{
+	font-size: 16px;
+	color: red;
+	line-height: 16px;
+}
+.China span{
+	font-size: 10px;
+	color: #555555;
+	line-height: 16px;
+}
+.sect h1{
+	font-size: 10px;
+	color: #888888;
+	line-height: 26px;
+}
+.sect ul{
+	height: 16px;
+	display: flex;
+	justify-content: flex-start;
+}
+.sect ul li{
+	width: 63px;
+	height: 16px;
+	padding-left: 10px;
+	border-right: 1px solid #d6d6d6;
+}
+.sect ul li:first-child{
+	padding-left: 0;
+}
+.sect ul li:last-child{
+	border-right: none;
+}
+.sect ul li a{
+	font-size: 10px;
+	color: #555555;
+	line-height: 16px;
+}
+.sect p{
+	height: 30px;
+	font-size: 10px;
+	color: #999999;
+	line-height: 30px;
+	padding-bottom: 13px;
+}
+/* 阈值大于1024 */
+@media screen and (min-width: 1024px){
+	header main{
+		width: 976px;
+	}
+	nav ul{
+		width: 976px;
+	}
+	/* 隐藏max */
+	.min{
+		display: none;
+	}
+	.max{
+		display: block;
+	}
+	.litsbox ul li{
+		height: 580px;
+	}
+	.ipx h2{
+		font-size: 40px;
+		line-height: 64px;
+		margin-top: 85px;	
+	}
+	.ipx h3{
+		font-size: 22px;
+		line-height: 64px;
+	}
+	.ipx div{
+		width: 909px;
+		height: 194px;
+		bottom: 110px;
+		background: url('../img/p1.jpg') no-repeat center/cover;
+
+	}
+
+	.ip8 p{
+		margin: 47px auto 0;
+		font-size: 14px;
+	}
+	.ip8 h2{
+		line-height: 64px;
+		font-size: 44px;
+	}
+	.ip8 h3{
+		font-size: 18px;
+		line-height: 40px;
+	}
+	.ip8 div{
+		width: 334px;
+		height: 335px;
+		background: url('../img/hero_large.png') no-repeat center/cover;
+	}
+	.ritbox ul li{
+		height: 592px;
+	}
+	.ritbox h2{
+		line-height: 42px;
+		font-size: 28px;
+		margin-top: 51px;
+	}
+	.ritbox h3{
+		line-height: 41px;
+		font-size: 19px;
+		
+	}
+	.ritbox div{
+		width: 385px;
+		height: 304px;
+		background: url('../img/airpods_large.jpg') no-repeat center/cover;
+		bottom: 60px;
+	}
+	
+	.mz{
+		width: 976px;
+		height: 318px;	
+	}
+	.mcz{
+		width: 20%;
+		height: 318px;
+	}
+	.mcz h2{
+		line-height: 29px;
+		font-size: 13px;
+
+	}
+	.mcz a{
+		line-height: 29px;
+		font-size: 13px;
+	}
+	.mzz{
+		width: 974px;
+		height: 32px;
+		margin-top: 33px;
+		border-bottom: 1px solid #d6d6d6;
+		line-height: 27px;
+		font-size: 12px;
+	}
+	.mzz a{
+		font-size: 12px;
+	}
+	.mzc{
+		width: 974px;
+		height: 33px;
+	}
+	.mzc .hz{
+		width: 277px;
+		height: 28px;
+		line-height: 28px;
+		font-size: 12px;
+	}
+	.mzc .hezi{
+		width: 389px;
+		height: 29px;
+		float: left;
+	}
+	.mzc .hezi a{
+		font-size: 12px;
+		line-height: 28px;
+		border-left: 1px solid #555555;
+		padding-left: 6px;
+		padding-right: 6px;
+		color: #555555;
+	}
+	.mzc .hezi a:first-child{
+		border-left: 0;
+		padding-left: 0;
+	}
+	.qu{
+		width: 76px;
+		height: 29px;
+		background: #f2f2f2;
+	    margin-left: 50px;
+
+	}
+	.qu i.icon-zhongguo{
+		font-size: 12px;
+	}
+	.qu a{
+		line-height: 29px;
+		font-size: 12px;
+	}
+	.que{
+		width: 100%;
+		height: 26px;
+		line-height: 26px;
+		font-size: 11px;
+		color: #999ea9;
+	}
+	.navS{
+		display: none;
+	}
+	.sect{
+		display: none;
+	}
+}
+/* 阈值小于1024 */
+@media screen and (max-width: 1024px){
+	header main{
+		padding-right: 22px;
+	}
+	nav ul{
+		padding: 0 22px;
+	}
+	.min{
+		display: none;
+	}
+	.max{
+		display: block;
+	}
+	.litsbox ul li{
+		height: 569px;
+	}
+	.ipx h2{
+		font-size: 32px;
+		line-height: 52px;
+		margin-top: 98px;	
+	}
+	.ipx h3{
+		font-size: 18px;
+		line-height: 52px;
+	}
+	.ipx div{
+		width: 704px;
+		height: 148px;
+		bottom: 144px;
+		background: url('../img/p2.jpg') no-repeat center/cover;
+
+	}
+
+	.ip8 p{
+		margin: 52px auto 0;
+		font-size: 12px;
+	}
+	.ip8 h2{
+		line-height: 52px;
+		font-size: 36px;
+	}
+	.ip8 h3{
+		font-size: 17px;
+		line-height: 43px;
+	}
+	.ip8 div{
+		width: 320px;
+		height: 327px;
+		background: url('../img/hero_medium.png') no-repeat center/cover;
+	}
+	.ritbox ul li{
+		height: 502px;
+	}
+	.ritbox h2{
+		line-height: 37px;
+		font-size: 23px;
+		margin-top: 41px;
+	}
+	.ritbox h3{
+		line-height: 29px;
+		font-size: 17px;
+		
+	}
+	.ritbox div{
+		width: 269px;
+		height: 211px;
+		background: url('../img/airpods_medium.jpg') no-repeat center/cover;
+		bottom: 72px;
+	}
+
+	.mz{
+	width: 100%;
+	height: 311px;
+	background: #333333;	
+}
+
+.mcz{
+	width: 20%;
+	height: 311px;
+}
+.mcz h2{
+	line-height: 28px;
+	font-size: 10px;
+}
+.mcz a{
+	line-height: 23px;
+	
+	font-size: 9px;
+}
+.baguo{
+	width: 100%;
+	height: 144px;
+/* 	padding-top: px;
+	box-sizing: border-box; */
+}
+.mzz{
+	width: 100%;
+	height: 28px;
+	background: #f2f2f2;
+	margin-top: 23px;
+	border-bottom: 1px solid #d6d6d6;
+	line-height: 21px;
+	font-size: 9px;
+
+}
+.mzz a{
+	font-size: 11px;
+	color: #0070c9;
+}
+.mzc{
+	width: 100%;
+	height: 58px;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+.mzc .hz{
+	width: 271px;
+	height: 29px;
+	line-height: 29px;
+	font-size: 11px;
+}
+.mzc .hezi{
+	width: 380px;
+	height: 29px;
+	float: left;
+}
+.mzc .hezi a{
+	font-size: 11px;
+	line-height: 29px;
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #999ea9;
+}
+.qu{
+	width: 60px;
+	height: 29px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+.que{
+	width: 100%;
+	height: 28px;
+	line-height: 29px;
+	font-size: 11px;
+
+	}
+	.navS{
+		display: none;
+	}
+	.sect{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px){
+	
+	.min{
+		display: block;
+	}
+	.max{
+		display: none;
+	}
+	.litsbox ul li{
+		height: 510px;
+	}
+	.ipx h2{
+		font-size: 30px;
+		line-height: 38px;
+		margin-top: 40px;	
+	}
+	.ipx h3{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.ipx div{
+		width: 167px;
+		height: 333px;
+		bottom: 50px;
+		background: url('../img/p3.jpg') no-repeat center/cover;
+
+	}
+	ip8 p{
+		margin: 40px auto 0;
+		font-size: 10px;
+	}
+	.ip8 h2{
+		width: 148px;
+		height: 67px;
+		line-height: 35px;
+		font-size: 23px;
+		margin: 0 auto;
+	}
+	.ip8 h3{
+		font-size: 14px;
+		line-height: 29px;
+	}
+	.ip8 div{
+		width: 282px;
+		height: 327px;
+		background: url('../img/hero_small.png') no-repeat center/cover;
+	}
+	.ritbox ul li{
+		width: 100%;
+		height: 512px;
+		border-left: none;
+		border-right: none;
+	}
+	.ritbox h2{
+		line-height: 36px;
+		font-size: 22px;
+		margin-top: 36px;
+	}
+	.ritbox h3{
+		line-height: 31px;
+		font-size: 19px;
+		
+	}
+	.ritbox div{
+		width: 244px;
+		height: 193px;
+		background: url('../img/airpods_small.jpg') no-repeat center/cover;
+		bottom: 89px;
+	}
+	.navS{
+		display: block;
+	}
+	.sect{
+		display: block;
+	}
+	.mz{
+		display: none;
+	}
+	.baguo{
+		display: none;
+	}
+}
